@@ -1,0 +1,186 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    word-wrap: break-word
+}
+main{
+  margin-bottom: 50px;
+}
+    ul{
+    list-style-type: none;
+    
+    }
+    
+    .navbar li a:hover {
+        color: blue !important;
+      }
+
+    .navbar li a{
+        padding-top: 30px !important;
+      font-size:18px !important;
+      color: #211A5B !important;
+      font-weight: bold !important;
+    }
+  .navbar{
+      background-color: rgb(224, 224, 224, 0.8) !important;
+      min-height: 80px !important;
+  }
+
+
+    #myCarousel img {
+        margin: auto;
+        display: block;
+        width: 100%;
+        max-width: 1200px;
+      }
+  .onama {
+    margin-top: 100px;
+    word-wrap: break-word
+  }
+  .onama h1{
+color:#211A5B;
+  }
+  footer{
+
+ background-color:rgb(224, 224, 224, 0.8);
+  min-height: 300px;
+  padding-top: 40px ;
+  
+   
+}
+.f1 img{
+margin-left: 100px;
+}
+footer p {
+    font-size: medium;
+    line-height:40px;
+}
+footer h2{
+color: #211A5B;
+font-size:x-large;
+
+}
+  .navbar-toggle{
+min-height: 80px !important;
+
+  }
+  .kontakt{
+
+    margin-top: 100px;
+  }
+  .kontakt p{
+margin-top: 25px;
+    font-size:larger;
+  }
+
+  .glyphicon {
+    font-size: 80px;
+    color:#211A5B;
+    
+  }
+
+  form {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 0 10px 0 #1f1f1f; 
+  }
+  
+  input, select, textarea {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  }
+  input {
+  width: 100%;
+  padding: 5px;
+  }
+  textarea {
+    width: calc(100% - 12px);
+    padding: 5px;
+    }
+     .input-row input:hover, .item select:hover, .item textarea:hover {
+      border: 1px solid transparent;
+      box-shadow: 0 0 6px 0 #211A5B;
+      }
+      .input-row {
+      position: relative;
+      margin: 10px 0;
+      }
+     
+      .button-send {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background: #211A5B;
+      font-size: 16px;
+      color: white;
+      cursor: pointer;
+      
+      }
+      .button-send:hover {
+    opacity: 0.9;;
+      }
+      .obavijesti{
+        border-top: 2px solid lightgray;
+        margin-bottom:10px ;
+      padding: 5px 5px;
+      }
+      .obv{
+        background-color:rgb(224, 224, 224, 0.8);
+        margin-top: 100px;
+      }
+      .obavijesti img{
+        max-width: 500px;
+
+
+
+      }
+      .obavijesti p, h3{
+        margin-left: 350px;
+      }
+      @media only screen and (max-width: 1200px) {
+        .f1 img{
+          margin-left: 0px;
+          }
+        .obavijesti p, h3 {
+          margin-left: 0px;
+        }
+        .glyphicon {
+          font-size: 40px;
+       
+          
+        }
+        .obavijesti img {
+          max-width: 300px;
+        }
+        .kontakt p{
+         
+          font-size: 18px;
+            }
+            .kontakt h2{
+          
+              font-size: 24px;
+                }
+               
+      }
+      .dokument{
+        margin-top: 100px;
+      }
+      .dokument iframe{
+
+height: 1000px;
+
+      }
+      .dokumentchild{
+        margin-top: 50px;}
+        .dokumentchild h2{
+          color: #211A5B;}
